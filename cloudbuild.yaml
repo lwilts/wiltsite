@@ -41,7 +41,7 @@ options:
   substitutionOption: ALLOW_LOOSE
 substitutions:
   _SERVICE_NAME: wiltsite
-  _DEPLOY_REGION: europe-west2
+  _DEPLOY_REGION: europe-west1
   _GCR_HOSTNAME: eu.gcr.io
 tags:
   - wiltsite
