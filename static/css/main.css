@@ -4,10 +4,11 @@ body {
 
 header {
   background-color: #d3ccc4;
-  padding: 10px;
+  padding: 20px;
+  padding-left: 40px;
   text-align: left;
   font-size: 35px;
-  color: white;
+  color: black;
 }
 
 section {
@@ -15,4 +16,5 @@ section {
   padding: 40px;
   background-color: #b37383;
   color: white;
+  width: 100%;
 }
