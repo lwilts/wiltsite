@@ -1,6 +1,9 @@
 # wiltsite
 A repo for deploying a pointless static site - but with *automation*!
 
+## Local testing
+`docker build -t wiltsite . && docker run -d --name wiltsite -p 8080:8080 -e PORT=8080 wiltsite`
+
 ## Deployment
 1. Get GCP
 2. Enable Cloud Run API
