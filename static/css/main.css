@@ -5,16 +5,29 @@ body {
 header {
   background-color: #d3ccc4;
   padding: 20px;
-  padding-left: 40px;
   text-align: left;
   font-size: 35px;
   color: black;
 }
 
-section {
+div {
   float: left;
-  padding: 40px;
+  padding: 20px;
+  padding-bottom: 30px;
   background-color: #b37383;
   color: white;
   width: 100%;
+}
+
+footer {
+  padding: 20px;
+  background-color: #b37383;
+  text-align: left;
+  color: #d3ccc4;
+}
+
+* { 
+  -moz-box-sizing: border-box; 
+  -webkit-box-sizing: border-box; 
+   box-sizing: border-box; 
 }
